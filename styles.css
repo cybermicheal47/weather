@@ -12,16 +12,34 @@ body{
 }
 
 
+header {
+    background-color: #0074D9;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
    /* styling search bar */
    .search input[type=text]{
-    width:300px;
-    height:25px;
+    width: 400px;
+    height: 50px;
     border-radius:25px;
     border: none;
 
 }
  
 .search{
+    margin: 10px auto;
    display: flex;
   
    justify-content: center;
@@ -31,8 +49,9 @@ body{
 .search button{
     background-color: #0074D9;
     color: #f2f2f2;
+    border-radius: 30px;
     float: center;
-    padding: 5px 10px;
+    padding: 20px 15px;
     margin-right: 16px;
     font-size: 12px;
             border: none;
@@ -45,21 +64,30 @@ h1{
     
 }
 
-#content{
+#content {
     display: flex;
-   
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    margin:10px;
-    font-weight: bolder;
-    border: 1px solid blue;
-    padding: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #0074D9;
     border-radius: 5px;
-    background-color: #f2f2f2;
- 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 #margin br{
     margin-bottom: 20px;
-    
+
+
+
+}
+
+#content p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#content span {
+    font-size: 18px;
 }
