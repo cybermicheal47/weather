@@ -5,41 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-<link rel="stylesheet" href="styles.css"    >
-
-
-<script src="https://kit.fontawesome.com/abee34ae9e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/abee34ae9e.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-    <h1>   
-        <a href="https://www.weatherapi.com/" title="Free Weather API"><img src='//cdn.weatherapi.com/v4/images/weatherapi_logo.png' alt="Weather data by WeatherAPI.com" border="0"></a>
+        <h1>
+            <a href="https://www.weatherapi.com/" title="Free Weather API">
+                <img src='//cdn.weatherapi.com/v4/images/weatherapi_logo.png' alt="Weather data by WeatherAPI.com" border="0">
+            </a>
+            CURRENT WEATHER
+        </h1>
+    </header>
 
-    CURRENT WEATHER</h1>
-</header>
     <div class="main">
-    <div class="search">
-             
-        <form action="#">
-            <input type="text" id="searchinput"
-                placeholder=" Search"
-                name="search">
-            <button id="searchbtn">
-                <i class="fa fa-search"
-                    style="font-size: 18px;">
-                </i>
-            </button>
-        </form>
+        <div class="search">
+            <form action="#">
+                <input type="text" id="searchinput" placeholder="Search" name="search">
+                <button id="searchbtn">
+                    <i class="fa fa-search"></i>
+                </button>
+            </form>
+        </div>
     </div>
 
-</div>
+    <div id="content"></div>
 
-
-    <div id="content"> </div>
-
-
-
-
-    <script src="scripts.js"></script> 
+    <script src="scripts.js"></script>
 </body>
 </html>
